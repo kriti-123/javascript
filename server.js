@@ -38,10 +38,13 @@ data.forEach((items) => {
         mp.set(key, 1);
 });
 console.log(mp);
-const m = Math.max(...mp.values());
-const minV = Math.min(...mp.values());
+mp.forEach((value,key)=>{
+   
+})
+// const m = Math.max(...mp.values());
+// const minV = Math.min(...mp.values());
 console.log(m);
-console.log(minV)
+console.log(minV);
 //-----------------------------------------Group by islno -----------------------------------------------------
 function groupBy(objectArray) {
     // console.log(property)
